@@ -52,6 +52,7 @@ module.exports = {
                     title: '基础',
                     collapsable: false,
                     children: [
+                        { title: '按钮 Button', path: '/component/basic/button' },
                         { title: '图标 Icon', path: '/component/basic/icon' },
                         { title: '颜色 color', path: '/component/basic/color' },
                         { title: '内外边距 Margin-Padding', path: '/component/basic/margin-padding' },
@@ -59,7 +60,6 @@ module.exports = {
                         { title: '文本 Text', path: '/component/basic/text' },
                         { title: '边框 Shadow', path: '/component/basic/shadow' },
                         { title: '线条 Line', path: '/component/basic/line' },
-                        { title: '按钮 Button', path: '/component/basic/button' },
                     ]
                 },
                 {
@@ -77,6 +77,8 @@ module.exports = {
                         { title: '文本域 Textarea', path: '/component/form/textarea' },
                         { title: '单项选择器 Radio', path: '/component/form/radio' },
                         { title: '复选框组件 Checkbox', path: '/component/form/checkbox' },
+                        { title: '开关 Switch', path: '/component/form/switch' },
+                        { title: '选择 Select', path: '/component/form/select' },
                         { title: '图片选择器 ImagePicker', path: '/component/form/image-picker' },
                         { title: '图片裁剪 ImageClipper', path: '/component/form/image-clipper' },
                     ]
@@ -85,6 +87,9 @@ module.exports = {
                     title: '导航',
                     collapsable: false,
                     children: [
+                        { title: '头部导航 NavBar', path: '/component/nav/navbar' },
+                        { title: '自定义 TabBar', path: '/component/nav/tabbar' },
+                        { title: '选项卡 Tabs', path: '/component/nav/tabs' },
                         { title: '选项卡 Segment', path: '/component/nav/segment' },
                     ]
                 },
